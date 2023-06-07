@@ -1,0 +1,16 @@
+{
+    "produtos":[
+        {
+            "id":1,
+            "nome":"Nike latest sneaker",
+            "preco":"R$ 200,00",
+            "imagem":"assets/template/img/product/new-product/n2.jpg"
+        },
+        {
+            "id":2,
+            "nome":"Men’s denim jeans",
+            "preco":"R$ 110,10",
+            "imagem":"assets/template/img/product/new-product/n3.jpg"
+        }     
+    ]
+}

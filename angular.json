@@ -25,9 +25,36 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/template/css/bootstrap.css",
+              "src/assets/template/vendors/linericon/style.css",
+              "src/assets/template/css/font-awesome.min.css",
+              "src/assets/template/css/themify-icons.css",
+              "src/assets/template/css/flaticon.css",
+              "src/assets/template/vendors/owl-carousel/owl.carousel.min.css",
+              "src/assets/template/vendors/lightbox/simpleLightbox.css",
+              "src/assets/template/vendors/nice-select/css/nice-select.css",
+              "src/assets/template/vendors/animate-css/animate.css",
+              "src/assets/template/vendors/jquery-ui/jquery-ui.css",
+              "src/assets/template/css/style.css",
+              "src/assets/template/css/responsive.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/template/js/jquery-3.2.1.min.js",
+              "src/assets/template/js/popper.js",
+              "src/assets/template/js/bootstrap.min.js",
+              "src/assets/template/js/stellar.js",
+              "src/assets/template/vendors/lightbox/simpleLightbox.min.js",
+              "src/assets/template/vendors/nice-select/js/jquery.nice-select.min.js",
+              "src/assets/template/vendors/isotope/imagesloaded.pkgd.min.js",
+              "src/assets/template/vendors/isotope/isotope-min.js",
+              "src/assets/template/vendors/owl-carousel/owl.carousel.min.js",
+              "src/assets/template/js/jquery.ajaxchimp.min.js",
+              "src/assets/template/vendors/counter-up/jquery.waypoints.min.js",
+              "src/assets/template/vendors/counter-up/jquery.counterup.js",
+              "src/assets/template/js/mail-script.js",
+              "src/assets/template/js/theme.js"
+            ]
           },
           "configurations": {
             "production": {
