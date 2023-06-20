@@ -26,7 +26,9 @@
         <div class="col-lg-6 mt-5 mt-lg-0">
           <div class="row">
 
-            <div *ngFor="let produto of produtos" class="col-lg-6 col-md-6">
+            <div 
+              *ngFor="let produto of produtos"   class="col-lg-6 col-md-6"                        
+            >
               <div class="single-product">
                 <div class="product-img">
                   <img class="img-fluid w-100" [src]="produto.imagem" alt="" />

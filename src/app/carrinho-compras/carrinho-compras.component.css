@@ -1,0 +1,40 @@
+#carrinho-compras-component
+{
+    position: absolute;
+    right: 5px;
+    width:400px;
+    top:60px;
+}
+#carrinho-compras-component tbody tr {
+    border-bottom:1px solid #DDD;
+}
+#carrinho-compras-component .imagem-icon
+{
+    height: 50px;
+    margin-right:10px;
+}
+#carrinho-compras-component .item-dados
+{
+    padding:10px;
+    display: flex;
+    flex-flow: row;
+}
+#carrinho-compras-component .item-dados p
+{
+    margin:0;
+    padding:0;
+}
+
+#carrinho-compras-component .valor-total
+{
+    font-size:1.2rem;
+    margin-top:15px;
+    float:right;
+}
+
+#carrinho-compras-component .lnr-trash
+{
+    cursor:pointer;
+    color:#FF0000;
+    font-weight: bold;    
+}
