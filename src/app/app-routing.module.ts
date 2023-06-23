@@ -4,6 +4,7 @@ import { Routes,RouterModule } from '@angular/router';
 import { ProdutoDetalheComponent } from './produto-detalhe/produto-detalhe.component';
 import { ProdutoHomeComponent } from './produto-home/produto-home.component';
 import { HomeComponent } from './home/home.component';
+import { CadastroClienteComponent } from './cadastro-cliente/cadastro-cliente.component';
 
 const routes:Routes = [
   {
@@ -18,6 +19,10 @@ const routes:Routes = [
   {
     path:'produto/:id',
     component:ProdutoDetalheComponent
+  },
+  {
+    path:'cadastro',
+    component:CadastroClienteComponent
   }
 ];
 

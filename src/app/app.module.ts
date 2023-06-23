@@ -9,6 +9,9 @@ import { HomeComponent } from './home/home.component';
 import { CarrinhoComprasComponent } from './carrinho-compras/carrinho-compras.component';
 import { ProdutoService } from './service/produto.service';
 import { FormsModule } from '@angular/forms';
+import { CadastroClienteComponent } from './cadastro-cliente/cadastro-cliente.component';
+import { TopMenuComponent } from './top-menu/top-menu.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,12 +19,15 @@ import { FormsModule } from '@angular/forms';
     ProdutoHomeComponent,
     ProdutoDetalheComponent,
     HomeComponent,
-    CarrinhoComprasComponent
+    CarrinhoComprasComponent,
+    CadastroClienteComponent,
+    TopMenuComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [ProdutoService],
   bootstrap: [AppComponent]
